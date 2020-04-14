@@ -35,7 +35,7 @@ Other key to exit...""")
                 print(self.soap_client.results_operation(student))
             elif self.menu_choice == "2":
                 student = input("Student name: ")
-                print(self.soap_client.results_operation(student))
+                print(self.soap_client.register_call_operation(student))
             else:
                 self.is_open = False
             input("Click 'Enter' to continue")
