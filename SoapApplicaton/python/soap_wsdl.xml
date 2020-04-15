@@ -87,7 +87,7 @@
     </wsdl:binding>
     <wsdl:service name="ApiPortService">
         <wsdl:port binding="tns:ApiPortSoap11" name="ApiPortSoap11">
-            <soap:address location="http://DESKTOP-4GUTBSR:8088/mockApiPortSoap11"/>
+            <soap:address location="http://localhost:8088/mockApiPortSoap11"/>
         </wsdl:port>
     </wsdl:service>
 </wsdl:definitions>
