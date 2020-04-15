@@ -87,7 +87,7 @@
     </wsdl:binding>
     <wsdl:service name="ApiPortService">
         <wsdl:port binding="tns:ApiPortSoap11" name="ApiPortSoap11">
-            <soap:address location="https://blooming-waters-10524.herokuapp.com:443/ws"/>
+            <soap:address location="http://DESKTOP-4GUTBSR:8088/mockApiPortSoap11"/>
         </wsdl:port>
     </wsdl:service>
 </wsdl:definitions>
